@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Login</title>
+    <link rel="stylesheet" href="assets/css/material.css">
+    <link rel="stylesheet" href="assets/css/toastr.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="quick-login-popup">
+        <div class="quick-login-header">
+            <h3>ZTN Quick Login</h3>
+        </div>
+        <div class="quick-login-form-section">
+    
+            <div class="quick-login-auth-url-section">
+                <label for="email"><b>Auth Url</b></label>
+                <input class="quick-login-form-control" type="text" placeholder="Enter Auth Url" name="auth_url" id="auth_url">
+                <br>
+            </div>
+    
+            <h6>Super Admin Credentials</h6>
+            <div class="quick-login-section">
+                <label for="email"><b>Email</b></label>
+                <input class="quick-login-form-control" type="text" placeholder="Enter Email" name="super_admin_email" id="super_admin_email">
+                <br>
+                <label for="email"><b>Password</b></label>
+                <input class="quick-login-form-control" type="text" placeholder="Enter Password" name="super_admin_password" id="super_admin_password">
+                <br>
+                <br>
+                <label for="email"><b>Iteration</b></label>
+                <input class="quick-login-form-control" type="text" placeholder="Enter Iteration" name="super_admin_iteration" id="super_admin_iteration">
+                <br>
+            </div>
+            
+            <h6>Admin Credentials</h6>
+            <div class="quick-login-section">
+                <label for="email"><b>Email</b></label>
+                <input class="quick-login-form-control" type="text" placeholder="Enter Email" name="admin_email" id="admin_email">
+                <br>
+                <label for="email"><b>Password</b></label>
+                <input class="quick-login-form-control" type="text" placeholder="Enter Password" name="admin_password" id="admin_password">
+                <br>
+                <br>
+                <label for="email"><b>Iteration</b></label>
+                <input class="quick-login-form-control" type="text" placeholder="Enter Iteration" name="admin_iteration" id="admin_iteration">
+                <br>
+            </div>
+
+            <h6>User Credentials</h6>
+            <div class="quick-login-section">
+                <label for="email"><b>Email</b></label>
+                <input class="quick-login-form-control" type="text" placeholder="Enter Email" name="user_email" id="user_email">
+                <br>
+                <label for="email"><b>Password</b></label>
+                <input class="quick-login-form-control" type="text" placeholder="Enter Password" name="user_password" id="user_password">
+                <br>
+                <br>
+                <label for="email"><b>Iteration</b></label>
+                <input class="quick-login-form-control" type="text" placeholder="Enter Iteration" name="user_iteration" id="user_iteration">
+                <br>
+            </div>
+            
+            <button type="submit" class="btn bg-gradient-primary" id="save_btn">Save</button>
+        </div>
+    </div>
+</body>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/toastr.js"></script>
+<script src="assets/js/script.js"></script>
+</html>

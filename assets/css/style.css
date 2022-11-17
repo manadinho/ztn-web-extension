@@ -1,0 +1,57 @@
+
+.quick-login-popup{
+    width: 350px;
+}
+
+.quick-login-header{
+    background: #6abdc3;
+    padding-left: 11px;
+    padding-top: 4px;
+    height: 40px;
+}
+
+
+.quick-login-header h3{
+    color: #fff;
+}
+
+.quick-login-form-section{
+    padding: 10px;
+}
+
+.quick-login-section{
+    border: solid 1px #6abdc3;
+    padding: 10px;
+    margin:10px
+}
+
+.quick-login-auth-url-section{
+    padding: 10px;
+}
+
+.quick-login-form-control{
+        border: solid 1px #6abdc3;
+        padding: 10px;
+        width: 100%;
+}
+
+.quick-login-form-control:focus{
+        border: solid 1px #6abdc3;
+        padding: 10px;
+        width: 100%;
+}
+
+.quick-login-btn{
+    background: #6abdc3;
+    color: #fff;
+    padding: 9px 8px;
+    border: none;
+}
+
+#quick-login-hidden-field{
+    margin-left: -8px;
+    width: 0px;
+    z-index: 975px;
+    background: #6abdc3;
+    border: none;
+}
